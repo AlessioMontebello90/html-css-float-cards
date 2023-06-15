@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-    margin: 15px;
+    margin: 0 auto;
 }
 
 
@@ -27,17 +27,18 @@ p{
 
 .container{
     width: 1000px;
-    height: 400px;
-    margin:  0 auto;
-    background-color: lightgrey;
+    background-color: blue;
 }
 
-.card1{
-    width: 200px;
-    height: 100px;
-    margin: 200px auto;
+.card-container{
+    width: calc(100% / 3);
     float: left;
-    background-color: red;
+    padding: 2px 15px;
+}
+
+.card{
+     height:100px;
+    background-color: lightgray;
     
 }
 
