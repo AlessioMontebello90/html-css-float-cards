@@ -37,8 +37,9 @@ p{
 }
 
 .card{
-     height:100px;
-    background-color: lightgray;
+     height:80px;
+     background-color:#0f0e17 ;
+     
     
 }
 
@@ -48,3 +49,25 @@ p{
     clear: both;
 }
 
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float: right;
+}
+
+img{
+    width: 80px;
+}
+
+h3{
+    font-size: small;
+    color: white;
+}
+
+a{
+    margin:15px;
+    color:#1da4e3 ;
+    text-decoration: none;
+}
