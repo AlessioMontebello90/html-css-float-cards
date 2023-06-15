@@ -1,0 +1,25 @@
+/* # GENERICS */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* # UTILITIES */
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:  0 15px;
+}
