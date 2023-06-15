@@ -10,6 +10,19 @@ img{
     max-width: 100%;
 }
 
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #e4306f;
+}
+
+p{
+    margin-top: 40px;
+    text-align: center;
+}
+
 /* # UTILITIES */
 
 .clearfix::after {
@@ -18,8 +31,9 @@ img{
     clear: both;
 }
 
-container {
+.container {
     max-width: 1000px;
     margin: 0 auto;
     padding:  0 15px;
+  
 }
